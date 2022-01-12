@@ -1,0 +1,72 @@
+.register {
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+}
+.register span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.register:before,
+.register:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 4%;
+  height: 4px;
+  background-color: black;
+  position: relative;
+}
+.register:before {
+  margin-left: -181%;
+  left: -14px;
+}
+.register:after {
+  margin-right: -100%;
+  right: -14px;
+}
+h4{
+  font-size:13px;
+  margin-left: 30px;
+}
+.Firstname{
+  width: 134px;
+  height: 25px;
+  margin-left: 30px;
+}
+.Lastname{
+  width: 134px;
+  height: 25px;
+  margin-left: 10px;
+}
+.Email{
+  margin-left: 30px;
+  width: 290px;
+  height:25px;
+}
+.Password{
+  margin-left: 30px;
+  width: 290px;
+  height:25px;
+}
+.Confirmpassword{
+  margin-left: 30px;
+  width: 290px;
+  height:25px;
+}
+.silka{
+  margin-left: 30px;
+}
+a{
+  text-decoration: none;
+  color: green;
+}
+.button{
+  color:white;
+  background-color: rgb(37, 129, 25);
+  width: 300px;
+  height: 35px;
+  margin-left: 29px;
+  font-weight: bold;
+}
+
